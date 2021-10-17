@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.is-open {
+  transform: rotate(90deg);
+}
+
+.is-closed {
+  transform: rotate(-90deg);
+}

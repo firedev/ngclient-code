@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Concert:</strong>
+  <%= @ticket_order.concert_id %>
+</p>
+<%= link_to "Edit", edit_ticket_order_path(@ticket_order) %> |
+<%= link_to "Back", ticket_orders_path %>
